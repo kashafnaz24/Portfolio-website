@@ -1,0 +1,351 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: black;
+    color:  #2a8ef1;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border: none;
+  justify-content: space-around;
+  
+}
+#navOption{
+    display: flex;
+    justify-content: space-around; 
+} 
+#navLinks{
+    padding: 15px;
+    font-weight: bolder;
+    font-family:cursive;
+}
+#webname{
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 35px;    
+}
+#heading{
+    color:aliceblue ;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#video-container{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+#video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+#fronttext{
+    width:99%;
+    margin-bottom: 20px;
+    height: auto;
+}
+#main-text{
+    display: flex;
+   justify-content: space-around;   
+}
+#para-links{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: underline;
+}
+#side-robot{
+    width: 150px;
+    height: 320px;
+}
+#wellcomeinnertext{
+    color:aliceblue ;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+#text{
+    margin: 40px;
+    text-align: center;
+    font-size: 15px;
+    width: 600px;
+    padding: 30px;
+}
+#startbtn{
+    display: flex;
+    justify-content: center;
+}
+#getstartbtn{
+    background-color: #2a8ef1;
+    border: 3px solid  aliceblue;
+    border-radius: 20px;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    width: 250px;
+    height: 50px;
+    text-transform: capitalize;
+
+}
+#getstartbtn:hover{
+    background-color:black;
+    border-color: #2a8ef1;
+    box-shadow: 0px 0px 5px #2a8ef1;
+    color: aliceblue;
+
+}
+#port{
+    display: flex;
+    justify-content: center;
+    
+}
+#portfoliohadding{
+    color: aliceblue;
+    text-shadow: 1px 1px 8px #2a8ef1;
+    font-size: 60px;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    margin: 20px;
+}
+#portimg{
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    width: 600px;
+    margin: 50px;
+    margin-bottom: 20px;
+    height: 300px;
+}
+#portimg:hover{
+    padding: 40px;
+    -moz-box-shadow: 5px 5px 5px aliceblue;
+    -webkit-box-shadow: 5px 5px  5px aliceblue;
+    box-shadow: aliceblue;
+
+}
+#main-portfolio{
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px aliceblue;
+    width: 700px;
+    height: 60px;
+    font-size: 30px;
+    font-family: serif;
+    text-shadow: 0px 0px 5px #2a8ef1;
+    text-align: center;
+
+
+}
+#innerportimg-div{
+    display: flex;
+    justify-content: center;
+}
+#innerportfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    width: 800px;
+    gap: 20px;
+    
+}
+#innerportimg{
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    margin: 50px;
+    margin-bottom: 0%;
+    height: 180px;
+
+}
+#innerportinfo{
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    width: 380px;
+    height: 200px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 13px;
+    padding: 10px;
+}
+#innerportinfo:hover{
+    box-shadow: 0px 0px 8px aliceblue;
+}
+#innerporth3{
+    color: #2a8ef1;
+    font-size: 25px;
+    font-family:serif;
+}
+
+h5{
+    color: #2a8ef1;
+    font-weight: bold;
+    font-family: serif;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: #2a8ef1;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #2a8ef1;
+}
+footer{
+    background-color: black;
+    color:#2a8ef1;
+    font-weight: bold;
+    text-align: center;
+} 
+#aboutfoot{
+  width: 400px;
+}
+#contactfoot{
+    padding: 30px;
+}
+#foot-para{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#contact{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#haddings{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    text-shadow: 1px 1px 8px #2a8ef1;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    margin: 20px;
+}
+#abouttext{
+    width:99%;
+    margin-bottom: 20px;
+    height: auto;
+}
+#about-1-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+#aboutpara{
+    margin: 60px; 
+    margin-right: 10px;
+    text-align: center;
+    font-size: 13px;
+    width: 700px;
+}
+#aboutrobot{
+   width: 100;
+   height: 320px;
+   margin-top: 30px;
+}
+#about-vision-para{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+#vision-para{
+    width: 600px;
+    text-align: center;
+}
+#ourcore{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px;
+}
+#core{
+   border: 2px solid #2a8ef1;
+   border-radius: 30px;
+   box-shadow: 0px 0px 5px #2a8ef1;
+   color: aliceblue;
+   font-size: 12px;
+   text-align: center;
+   padding: 10px;
+}
+#corehadding{
+    color: aliceblue;
+    text-shadow: 1px 1px 8px #2a8ef1;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    margin: 20px;
+}
+#about-lastpara{
+    width: 600px;
+    text-align: center;
+}
+#last-para{
+    display: flex;
+    justify-content: center;
+}
+form{
+    border: 4px solid #2a8ef1 ;
+    border-radius: 20px;
+    height:auto;
+    width: 90%;
+    padding: 20px;
+    margin: 50px;
+}
+fieldset{
+    border: 2px solid  #2a8ef1;
+    margin: 20px;
+    padding: 10px;
+}
+legend{
+    font-size: 25px;
+    font-family: cursive;
+}
+input{
+    border: 2px solid #2a8ef1;
+    height: 40px;
+    width: 400px;
+}
+textarea{
+    border: 2px solid #2a8ef1;
+    width: 500px;
+}
+#input:hover{
+    box-shadow:2px 2px 2px #2a8ef1;
+}
+#radio{
+    height: 20px;
+    width: 25px;
+}
+#signup{
+    height: 20px;
+    width: 25px;
+}
+button{
+    border: 2px solid #2a8ef1;
+    border-radius: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: large;
+    height: 50px;
+    width: 300px;
+    margin: 30px;
+}
+button:hover{
+    box-shadow:5px 5px 5px #2a8ef1;
+    background-color:aliceblue;
+}
+#googlemap{
+    width: 90%;
+    border:3px solid #2a8ef1 ;
+    border-radius: 20px ;
+    margin: 50px;
+}
