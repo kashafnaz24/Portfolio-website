@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 export default function AboutPage(){
     return(
         <div>
@@ -24,12 +24,15 @@ export default function AboutPage(){
     decisions faster and more accurately. We believe AI should not just be a tool but 
     an extension of human intelligence, working alongside us to innovate and drive progress.   
     </p>
-    <img src="/aboutrobot.jpg" alt="siderobot" id="aboutrobot"/>
+    <Image
+     src="/aboutrobot.jpg" 
+     alt="siderobot" 
+     id="aboutrobot"/>
     </div>
     </div>
     <h2 id="haddings">Our Vision</h2>
     <p id="wellcomeinnertext"><blockquote>
-    "Empowering the Future of AI: Bridging Human-like Intelligence and Innovation"
+    Empowering the Future of AI: Bridging Human-like Intelligence and Innovation
      </blockquote></p>
      <div id="about-vision-para">
     <p id="vision-para">
